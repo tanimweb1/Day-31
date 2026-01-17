@@ -32,6 +32,17 @@ printf("%d * %d = %d\n",n,i,n*i);
 
 
 
+// nth factorial 
+int n,fact =1;
+scanf("%d",&n);
+
+for(int i = 1;i<=n;i++){
+
+fact = fact*i;
+
+}
+printf("Fact is %d",fact);
+    
 
     
 
@@ -39,3 +50,4 @@ printf("%d * %d = %d\n",n,i,n*i);
     return 0;
 
 }
+
